@@ -2,9 +2,9 @@ from karakter_tip import KarakterTip
 from takim import Takim
 from karakter import Karakter
 from karsilasma import Karsilasma
-sovalye = KarakterTip("Şovalye", 100, 3, 50)
-okcu = KarakterTip("Okçu", 60, 2, 20)
-mancinik = KarakterTip("Mancınık", 400, 1, 100)
+sovalye = KarakterTip("Şovalye", 50, 3, 100)
+okcu = KarakterTip("Okçu", 20, 2, 60)
+mancinik = KarakterTip("Mancınık", 100, 1, 400)
 
 sovalye1 = Karakter("Şovalye Ahmet", sovalye)
 okcu1 = Karakter("Okçu Korhan", okcu)

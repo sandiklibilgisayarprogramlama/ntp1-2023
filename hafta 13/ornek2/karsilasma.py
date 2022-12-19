@@ -5,6 +5,7 @@ class Karsilasma:
     def savas_basla(self):
         i = 0
         while self.takim_listesi[0].can > 0 and self.takim_listesi[1].can > 0:
+            i += 1
             print("Tur : {}".format(str(i)))
             self.takim_listesi[0].karakter_listesi.sort(
                 key=lambda x: x.karakter_tip.oncelik, reverse=True)
